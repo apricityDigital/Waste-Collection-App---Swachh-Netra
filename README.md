@@ -1,1 +1,0 @@
-# Waste-Collection-App---Swachh-Netra
