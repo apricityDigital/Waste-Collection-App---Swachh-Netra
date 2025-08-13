@@ -21,13 +21,13 @@ import LoadingScreen from "./src/screens/LoadingScreen"
 import LoginScreen from "./src/screens/LoginScreen"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDITEkMNEoxReuV1mKUSdX9yXQdAjVyNfo",
-  authDomain: "swachh-netra-waste-collection.firebaseapp.com",
-  projectId: "swachh-netra-waste-collection",
-  storageBucket: "swachh-netra-waste-collection.firebasestorage.app",
-  messagingSenderId: "217847571486",
-  appId: "1:217847571486:web:bea5903b30877c9e1cba0f",
-  measurementId: "G-C299LH6MTC"
+  apiKey: process.env.API_KEY,
+  authDomain: process.env.AUTH_DOMAIN,
+  projectId: process.env.PROJECT_ID,
+  storageBucket: process.env.STORAGE_BUCKET,
+  messagingSenderId: process.env.MESSAGING_SENDER_ID,
+  appId: process.env.APP_ID,
+  measurementId: process.env.MEASUREMENT_ID
 }
 
 let app: FirebaseApp | undefined
